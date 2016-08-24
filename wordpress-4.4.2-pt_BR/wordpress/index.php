@@ -15,5 +15,3 @@ define('WP_USE_THEMES', true);
 
 /** Loads the WordPress Environment and Template */
 require( dirname( __FILE__ ) . '/wp-blog-header.php' );
-
-// link do banco de dados: https://drive.google.com/open?id=0BwCJGeQhsqUQS1FNZXVvQk52RjQ
