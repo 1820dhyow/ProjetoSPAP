@@ -43,7 +43,7 @@ wp_head();
 		<div id="header-text-nav-container">
 			<div class="inner-wrap">
 
-				<div id="header-text-nav-wrap" class="clearfix">
+                            <div id="header-text-nav-wrap" class="clearfix">
 					<div id="header-left-section">
 						<?php
 						if( ( spacious_options( 'spacious_show_header_logo_text', 'text_only' ) == 'both' || spacious_options( 'spacious_show_header_logo_text', 'text_only' ) == 'logo_only' ) && spacious_options( 'spacious_header_logo_image', '' ) != '' ) {
@@ -89,7 +89,7 @@ wp_head();
 						<?php
 						}
 						?>
-						<nav id="site-navigation" class="main-navigation" role="navigation">
+                                            <nav id="site-navigation" class="main-navigation" role="navigation">
 							<h3 class="menu-toggle"><?php _e( 'Menu', 'spacious' ); ?></h3>
 							<?php
 								if ( has_nav_menu( 'primary' ) ) {
@@ -100,6 +100,7 @@ wp_head();
 								}
 							?>
 						</nav>
+                                             
 			    	</div><!-- #header-right-section -->
 
 			   </div><!-- #header-text-nav-wrap -->
